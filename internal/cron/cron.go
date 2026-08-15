@@ -38,7 +38,7 @@ var dowNames = map[string]int{
 }
 
 // searchLimit 自基准时间起的最长搜索跨度，超过即视为无命中。
-const searchLimit = 24 * time.Hour
+const searchLimit = 5 * 365 * 24 * time.Hour
 
 // Field 表示一个 cron 字段解析后的取值集合。
 type Field struct {
